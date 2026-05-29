@@ -22,7 +22,7 @@
     // Función para conectar con el servicio de correo en la nube de Flask
     async function dispararNotificacion(nombre) {
         try {
-            await fetch('http://127.0.0.1:5000/enviar-alerta', {
+            await fetch('https://taller-motos-backend-nq4q.onrender.com/enviar-alerta', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({

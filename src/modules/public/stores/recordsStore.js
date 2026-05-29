@@ -1,7 +1,7 @@
 import { defineStore } from "pinia";
 import { ref, computed } from 'vue'
 
-const URL_BACKEND = "http://127.0.0.1:5000"
+const URL_BACKEND = 'https://taller-motos-backend-nq4q.onrender.com'
 
 export const useRecordsStore = defineStore('registros', () => {
     // --- ESTADOS REACTIVOS (TALLER DE MOTOS) ---
